@@ -19,7 +19,7 @@ from model.decoder import syDecoder, asyDecoder
 from model.discriminator import Discriminator
 from model.pkgenerator import pkgenerator
 
-GPU = '0,1'
+GPU = '0,1,2,3'
 os.environ['CUDA_VISIBLE_DEVICES'] = GPU
 parser = argparse.ArgumentParser(
     description='Pytorch Implement with ImageNet')

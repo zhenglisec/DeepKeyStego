@@ -10,6 +10,5 @@ class ConvBNLRelu(nn.Module):
             nn.BatchNorm2d(channels_out),
             nn.LeakyReLU(inplace=True)
         )
-
     def forward(self, x):
         return self.layers(x)

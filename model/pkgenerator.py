@@ -16,3 +16,4 @@ class pkgenerator(nn.Module):
         out = self.out(out)
         out = out.view(-1, 1024)
         return out
+        

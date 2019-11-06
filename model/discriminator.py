@@ -8,7 +8,6 @@ class Discriminator(nn.Module):
         layers = [ConvBNLRelu(3, 64)]
         for _ in range(num_blocks-1):
             layers.append(ConvBNLRelu(64, 64))
-
         layers.append(nn.AdaptiveAvgPool2d(output_size=(1, 1)))
         self.before_linear = nn.Sequential(*layers)
         self.linear = nn.Linear(64, 1)

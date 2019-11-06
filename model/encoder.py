@@ -10,7 +10,6 @@ class Encoder(nn.Module):
         self.num_blocks = 4
 
         layers = [ConvBNLRelu(9, self.conv_channels)]
-
         for _ in range(self.num_blocks-1):
             layer = ConvBNLRelu(self.conv_channels, self.conv_channels)
             layers.append(layer)

@@ -1,5 +1,6 @@
 import torch
 import torch.nn as nn
+
 class PreKey(nn.Module):
     def __init__(self):
         super(PreKey,self).__init__()
