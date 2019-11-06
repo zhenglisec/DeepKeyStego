@@ -12,6 +12,7 @@ If you find DeepKeyStego useful in your research, please consider to cite the pa
 author = {Zheng Li and Ge Han and Shanqing Guo and Chengyu Hu},
 title = {DeepKeyStego: Protecting Communication by Key-dependent Steganography with Deep Networks},
 booktitle = {Proceedings of the IEEE 21st International Conference on High Performance Computing and Communications (HPCC)},
+pages={1937-1944},
 publisher = {IEEE},
 year = {2019}
 }
