@@ -3,7 +3,7 @@ The pytorch implement of paper "DeepKeyStego: Protecting Communication by Key-de
 
 # Quickstart
 * Configure the environment, `Python=3.7 and Others are the latest version`.
-* change `args.type='symmeric or asymmeric'` to define the implement mode and `args.secret_len=1024 or 8192` to define the secret message length.
+* Change `args.type='symmeric or asymmeric'` to define the implement mode and `args.secret_len=1024 or 8192` to define the secret message length.
 
 # Citation
 If you find DeepKeyStego useful in your research, please consider to cite the papers:
