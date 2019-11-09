@@ -13,12 +13,12 @@ Others are the latest version
 # Citation
 If you find DeepKeyStego useful in your research, please consider to cite the papers:
 ```
-@inproceedings{DeepKeyStego,
-author = {Zheng Li and Ge Han and Shanqing Guo and Chengyu Hu},
-title = {DeepKeyStego: Protecting Communication by Key-dependent Steganography with Deep Networks},
-booktitle = {Proceedings of the IEEE 21st International Conference on High Performance Computing and Communications (HPCC)},
-pages={1937-1944},
-publisher = {IEEE},
-year = {2019}
+@inproceedings{li2019deepkeystego,
+  title={DeepKeyStego: Protecting Communication by Key-Dependent Steganography with Deep Networks},
+  author={Li, Zheng and Han, Ge and Guo, Shanqing and Hu, Chengyu},
+  booktitle={2019 IEEE 21st International Conference on High Performance Computing and Communications; IEEE 17th International   Conference on Smart City; IEEE 5th International Conference on Data Science and Systems (HPCC/SmartCity/DSS)},
+  pages={1937--1944},
+  year={2019},
+  organization={IEEE}
 }
 ```
