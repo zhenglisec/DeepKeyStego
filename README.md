@@ -2,7 +2,12 @@
 The pytorch implement of paper "DeepKeyStego: Protecting Communication by Key-dependent Steganography with Deep Networks"
 
 # Quickstart
-* Configure the environment, `Python=3.7 and Others are the latest version`.
+* Configure the environment
+```
+Python=3.7
+Pytorch=1.2.0
+Others are the latest version
+```
 * Change `args.type='symmeric or asymmeric'` to define the implement mode and `args.secret_len=1024 or 8192` to define the secret message length.
 
 # Citation
