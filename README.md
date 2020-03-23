@@ -10,6 +10,16 @@ Others are the latest version
 ```
 * Change `args.type='symmeric or asymmeric'` to define the implement mode and `args.secret_len=1024 or 8192` to define the secret message length.
 
+# Results
+
+## ImageNet
+<img src="results/symmetric.png">
+<img src="results/asymmetric.png">
+
+## Boss
+<img src="Bosscode/results/symmetric.png">
+<img src="Bosscode/results/asymmetric.png">
+
 # Citation
 If you find DeepKeyStego useful in your research, please consider to cite the papers:
 ```
