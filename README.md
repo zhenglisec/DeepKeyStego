@@ -12,13 +12,27 @@ Others are the latest version
 
 # Results
 
-## ImageNet
-<img src="results/symmeric.png">
-<img src="results/asymmeric.png">
+## ImageNet (top:origin; below:stego)
 
-## Boss
-<img src="source code for BOSSdataset/results/symmeric.pgm">
-<img src="source code for BOSSdataset/results/asymmeric.pgm">
+### symmetric
+
+<img src="results/symmetric.png">
+
+### asymmetric
+
+<img src="results/asymmetric.png">
+
+## Boss (top:origin; below:stego)
+
+### symmetric
+
+<img src="BOSSdata/results/symmetric.png">
+
+### asymmetric
+
+<img src="BOSSdata/results/asymmetric.png">
+
+
 
 # Citation
 If you find DeepKeyStego useful in your research, please consider to cite the papers:
